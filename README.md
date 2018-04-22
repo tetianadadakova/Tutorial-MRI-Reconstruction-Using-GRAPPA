@@ -5,7 +5,8 @@ I wrote this code when trying to understand how GRAPPA reconstruction works. I w
 Code consists of the following parts:
 
 1. Load Shepp-Logan phantom.
-![alt text](fig/01_SLphantom.png)
+
+![alt text](fig/01_SLphantom.png = 200x200)
 
 2. Create six artificial sensitivities of the channels of the coil. This is done by creating linear intensity gradients in 6 directions. Adding more channels will improve the reconstruction.
 ![alt text](fig/02_CoilChSensitivities.png)
